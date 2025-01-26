@@ -61,5 +61,7 @@ const player = new Player();
 const startGame = () => {
   canvas.style.display = "block";
   startScreen.style.display = "none";
-  this.player.draw();
+  player.draw();
 };
+
+startBtn.addEventListener("click", startGame);
